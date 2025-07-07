@@ -1,0 +1,22 @@
+# Sesión 4: Controladores, BBDD y Presentación del Proyecto
+
+¡Nuestro módulo ya interactúa con el frontend! Pero todo módulo profesional necesita ser **configurable** por el administrador de la tienda. En esta sesión nos adentraremos en la **arquitectura MVC** de PrestaShop para construir un panel de configuración robusto y amigable.
+
+Al finalizar esta sesión tendrás un módulo con **página de configuración funcional**, permitiendo a cualquier administrador modificar su comportamiento sin tocar código.
+
+#### 📚 Conceptos que Dominaremos
+
+1. **Patrón MVC** en el contexto de PrestaShop
+2. **Método getContent()** como puerta de entrada
+3. **Controladores de Back Office** para gestionar páginas de administración
+4. **HelperForm** para formularios estándar de PrestaShop
+5. **Procesamiento y validación** de datos de formularios
+6. **Clase Configuration** para guardar/recuperar ajustes
+7. **Integración** entre configuración y frontend
+
+| Tema                                                | Subtemas Clave                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #6 Configuraciones desde el Back Office             | <p>- Uso de <strong><code>HelperForm</code></strong> en 1.7.</p><p>- <strong>Traducción y validación</strong> de inputs.</p><p>- Guardado de configuraciones con <code>Configuration::updateValue</code>.</p><p>- <strong>Configuraciones por tienda</strong>.</p><p>- Mostrar formularios con datos precargados.</p><p>- <strong>Almacenamiento en base de datos personalizada</strong> vs <code>ps_configuration</code>.</p><p>- <strong><code>FormBuilder</code> de Symfony</strong> (introducción y uso parcial).</p><p>- Acciones tras guardar configuración y mostrar alertas/errores.</p><p>- <strong>Exportar configuraciones</strong> para migración futura.</p> |
+| #7 Acceso y Manipulación de la Base de Datos        | <p>- Uso de <code>Db::getInstance()->execute()</code> vs <code>query</code>.</p><p>- <strong>ORM de PrestaShop (ObjectModel)</strong>.</p><p>- Creación de <strong>nuevas tablas seguras</strong> y gestión de relaciones.</p><p>- Instalación de estructuras SQL en <code>install()</code>.</p><p>- <strong>SQL personalizado y paginación</strong>.</p><p>- <strong>Queries multitienda</strong>.</p><p>- Pruebas de <strong>rendimiento</strong> en queries.</p><p>- <strong>Limpieza de datos huérfanos</strong> al desinstalar.</p><p>- Herramientas de visualización (Adminer, PHPMyAdmin, etc.).</p>                                                               |
+| Presentación Proyecto Final: Módulo de Valoraciones | <p>- <strong>Objetivo:</strong> Permitir que los clientes dejen valoraciones en las fichas de producto.</p><p>- <strong>Funcionalidades:</strong></p><p>1. Formulario para enviar puntuación (1-5 estrellas) y un comentario.</p><p>2. Listado de valoraciones visibles en la ficha del producto.</p><p>3. Panel en el Back Office para moderar (aprobar/eliminar) las valoraciones.</p>                                                                                                                                                                                                                                                                                  |
+

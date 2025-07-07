@@ -1,0 +1,16 @@
+---
+description: (4h)
+---
+
+# Sesión 2: Entorno Avanzado, Estructura y Creación Inicial del Módulo
+
+**Objetivo General de la Sesión:**
+
+Al finalizar esta sesión, serás capaz de gestionar aspectos avanzados de tu entorno de desarrollo, comprenderás en detalle la anatomía de un módulo de PrestaShop y habrás creado la estructura básica de tu primer módulo.
+
+| Tema Principal                                                     | Subtemas clave                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #2 Entorno de Desarrollo Profesional para Prestashop 1.7.8 (Cont.) | <p>- Base de datos de pruebas: estrategias y dump limpio</p><p>- Control de versiones: .gitignore y estructura recomendada</p><p>- Logs: Apache, PS, errores y SQL</p><p>- Panel de rendimiento para desactivar caché</p><p>- Configuración de multitienda y multiidioma para pruebas (introducción conceptual)</p><p>- PrestaShop Console y uso básico&#x26;lt;br>- Automatización con Composer para librerías externas</p>                                                                                                                  |
+| #3 Estructura de un Módulo en Prestashop 1.7                       | <p>- Archivos clave: .php principal, config.xml, logo, traducciones, views</p><p>- Uso de namespaces en PHP 7.4</p><p>- Separación frontend/backend</p><p>- Estructura de formularios: HelperForm vs SymfonyForms (introducción)</p><p>- Inyección de servicios (con limitaciones)</p><p>- Archivos de idioma (.tpl y .php)</p><p>- Carpetas recomendadas: controllers, classes, translations</p><p>- PSR-1/PSR-4 en Prestashop&#x26;lt;br>- Estructura para override y extensión futura</p><p>- Buenas prácticas de organización modular</p> |
+| #4 Creación de un Módulo desde Cero (Inicio)                       | - Scaffold básico del módulo (creación manual de archivos y carpetas)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
